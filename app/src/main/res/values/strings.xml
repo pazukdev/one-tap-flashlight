@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- MainActivity -->
+    <string name="text_view">
+        Press Home button to use Your phone or Power button to turn off your screen -
+        flashlight will continue to give a light.
+        \nTo turn off the flashlight you need to press Back button from the application.
+    </string>
+
+    <!-- For Alert Dialogs -->
+
+    <!-- Privacy Policy -->
+
+    <string name="privacy_policy_button">Privacy policy</string>
+
+    <string name="privacy_policy" translatable="false">
+        \nAll the information what app able to give - is standard info for GooglePlay
+        services: about phone model, about operating system version, country, ect. That info is
+        the same for any app in GooglePlay. One-Tap Flashlight app not collect, use or sell any
+        private information about phone owner. And this app, as it is, specially not collect any
+        information at all. The app - is just a flashlight for phone. The only one task of the
+        app - is to, being  small and simple, give to your phone functionality of flashlight.
+        \n
+        \nPermission for camera is needed just for app be able to turn on camera flash, which is
+        using as flashlight.
+        \n
+        \nIf you have any questions about app-s Privacy Policy (the same as about the app at all)
+        you can write to me on my email: pazukdev@gmail.com
+        \n
+        \nPazukDev
+    </string>
+
+    <!-- App Start Error -->
+    <string name="app_start_error_title">Application start error</string>
+    <string name="app_start_error_message">
+        Camera and flashlight are missing on your device or are not responding.
+        Application will be closed.
+    </string>
+
+    <!-- Camera Start Error -->
+    <string name="camera_start_error_title">Camera start error</string>
+    <string name="camera_statr_error_message">
+        Starting and getting parameters of camera failure. Camera is not responding.
+        Application will be closed.
+    </string>
+
+    <!-- Alert Dialog OnCancel Toast Text -->
+    <string name="alertdialog_oncancel_toast_text">
+        You can\'t cancel the dialog with button Back.
+    </string>
+
+    <!-- Buttons -->
+    <!-- <string name="ok" translatable="false">OK</string> -->
+    <string name="close">Close</string>
+    <string name="close_app">Close application</string>
+
+
+
+
+
+
+</resources>

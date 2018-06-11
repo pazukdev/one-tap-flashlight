@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- MainActivity -->
+    <string name="text_view">
+        Вы можете нажать кнопку Home для работы в телефоне или кнопку Power для
+        выключения экрана телефона - фонарик все равно будет светить
+        \nДля выключения фонарика нужно, находясь в приложении, нажать кнопку Back
+    </string>
+
+    <!-- For Alert Dialogs -->
+
+    <!-- Privacy Policy -->
+    <string name="privacy_policy_button">Политика конфиденциальности</string>
+
+    <!-- App Start Error -->
+    <string name="app_start_error_title">Ошибка запуска приложения</string>
+    <string name="app_start_error_message">
+        Камера и вспышка отсутствуют на Вашем устройстве или не отвечают.
+        Приложение будет закрыто.
+    </string>
+
+    <!-- Camera Start Error -->
+    <string name="camera_start_error_title">Ошибка включения камеры</string>
+    <string name="camera_statr_error_message">
+        Ошибка попытки запуска и получения приложением параметров камеры вашего устройства.
+        Камера не отвечает. Приложение будет закрыто.
+    </string>
+
+    <!-- Alert Dialog OnCancel Toast Text -->
+    <string name="alertdialog_oncancel_toast_text">
+        Вы не можете выйти из диалогового окна нажатием кнопки Back
+    </string>
+
+    <!-- Buttons -->
+    <string name="close">Закрыть</string>
+    <string name="close_app">Закрыть приложение</string>
+
+
+
+
+
+</resources>
