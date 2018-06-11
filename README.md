@@ -1,6 +1,7 @@
 # OneTap-Flashlight
-Current version 1.03   
 Simple flashlight for phone
+
+Current version 1.03 
 <p/>
 The flashlight turns on with one tap on app icon. No any additional button taps inside app needed.
 <p/>
