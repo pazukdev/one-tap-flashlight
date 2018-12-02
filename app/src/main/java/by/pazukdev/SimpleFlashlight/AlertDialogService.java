@@ -1,6 +1,5 @@
 package by.pazukdev.SimpleFlashlight;
 
-
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -10,10 +9,6 @@ import android.view.ContextThemeWrapper;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
-
-/**
- * Created by PazukDev on 11.06.2018.
- */
 
 public class AlertDialogService {
 
@@ -44,7 +39,6 @@ public class AlertDialogService {
         return alertDialog;
     }
 
-
     private void createPrivacyPolicyDialog() {
         alertDialog.setCancelable(false);
         alertDialog.setTitle(context.getResources().getString(R.string.privacy_policy_button));
@@ -60,7 +54,6 @@ public class AlertDialogService {
                     }
                 });
     }
-
 
     private void createAppStartErrorDialog() {
         alertDialog.setTitle(context.getResources().getString(R.string.app_start_error_title));
@@ -83,7 +76,6 @@ public class AlertDialogService {
         });
     }
 
-
     private void createCameraStartErrorDialog() {
         alertDialog.setTitle(context.getResources().getString(R.string.camera_start_error_title));
         alertDialog.setMessage(context.getResources().getString(R.string.camera_statr_error_message));
@@ -104,7 +96,6 @@ public class AlertDialogService {
         });
     }
 
-
     private void styleDialog() {
 
         // set button and button text colors
@@ -121,3 +112,18 @@ public class AlertDialogService {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

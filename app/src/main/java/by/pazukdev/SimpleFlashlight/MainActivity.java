@@ -1,6 +1,5 @@
 package by.pazukdev.SimpleFlashlight;
 
-
 import android.content.pm.PackageManager;
 import android.hardware.Camera;
 import android.hardware.Camera.Parameters;
@@ -10,27 +9,20 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+
 import java.util.List;
 
 /**
- * Created by PazukDev on 01.04.2017.
- *
- * Updated to 1.03 version on 11.06.2018
- *
+ * @author PazukDev
  */
-
-
 public class MainActivity extends AppCompatActivity {
 
     private boolean hasFlash;
     private Camera camera; // deprecated class Camera will be changed to CameraDevice at one of
                            // the next updates if it increase min Android version up to 21
     private Parameters parameters;
-
     private Button button;
-
     private AlertDialogService alertDialogService = new AlertDialogService(this);
-
 
     private void hasFlashCheck() {
         hasFlash = getApplicationContext().getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH);
@@ -83,7 +75,6 @@ public class MainActivity extends AppCompatActivity {
         camera.setParameters(parameters);
         camera.stopPreview();
         camera.release();
-        camera = null;
     }
 
     @Override
@@ -116,3 +107,16 @@ public class MainActivity extends AppCompatActivity {
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
